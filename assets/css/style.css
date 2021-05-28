@@ -1,0 +1,87 @@
+/* Reset CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.col {
+    float: left;
+}
+.col-half {
+    width: 50%;
+}
+
+.col-2p3 {
+    width: 50%;
+}
+.col-full {
+    width: 100%;
+}
+
+.row {
+    float: right;
+}
+
+.padd-lf {
+    padding: 5px 10px;
+}
+
+.padd-top-16 {
+    padding-top: 16px;
+}
+
+#form {
+    width: 900px;
+    background-color:goldenrod;
+    margin: auto;
+    margin-top: 20px;
+    min-height: 400px;
+}
+
+#form .form-email {
+    width: 100%;
+}
+
+#form .form-password {
+    width: 100%;
+}
+
+#form .form-address {
+    width: 100%;
+}
+
+#form .form-address2 {
+    width: 100%;
+}
+
+#form .form-city {
+    width: 100%;
+}
+
+#form .form-state {
+    width: 50%;
+}
+
+#form .p-state {
+    display: block;
+}
+
+#form .form-zip {
+    margin-top: -18px;
+}
+#form .form-zip-btn {
+    width: 100%;
+    float: right;
+}
+
+
+#form .btn-sign-in {
+    margin: 16px 10px;
+    background-color: blue;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+}
+
