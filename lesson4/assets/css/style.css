@@ -1,0 +1,143 @@
+/* Reset CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COMM */
+.clear {
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+.col-third {
+    width: 33.333333%;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.border-right {
+    border-right: 1px solid #323c3f;
+}
+
+.padd-10 {
+    padding: 0 10px;
+}
+
+p {
+    margin: 0 0 15px 0;
+}
+
+.mr-left-15 {
+    margin-left: 15px;
+}
+.address-name {
+    margin-bottom: 15px;
+    /* margin-top: 10px; */
+    text-transform: uppercase;
+}
+
+#main {
+    margin: 50px auto;
+}
+
+#shop {
+    margin: 50px auto 0;
+    width: 1200px;
+    background-color: #efefef;
+
+}
+
+#shop .title-shop {
+    font-size: 17px;
+    text-transform: uppercase;
+    line-height: 34px;
+    padding: 20px 10px 10px;
+    font-weight: 600;
+}
+
+#contact {
+    width: 1200px;
+    margin: 5px auto 0;
+    background-color: #efefef;
+}
+
+#contact li {
+    list-style-type: none;
+}
+
+/* chưa làm đc phần translate */
+/* #contact .location {
+    position: relative;
+}
+#contact li:hover a {
+    position: absolute;
+    transform: translateX(-30%);
+} */
+
+#contact li a {
+    text-decoration: none;
+    line-height: 30px;
+    color: #000;
+    font-size: 12px;
+}
+
+#contact .address-name {
+    padding-top: 10px;
+}
+
+#contact .icon {
+    width: 34px;
+    background: #fff;
+    color: #a8a8a8;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+#footer {
+    width: 1200px;
+    margin: 0 auto;
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+    height: 90px;
+}
+
+#footer .footer-nav {
+    text-align: center;
+}
+
+#footer li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 5px;
+}
+
+#footer li a {
+    text-decoration: none;
+    color: #666;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#footer a[href^="#1"]::after {
+    content: "|";
+    margin-left: 15px;
+    font-size: 14px;
+    color: #666;
+ 
+}
+
+.text-footer {
+    text-align: center;
+    margin: 15px auto;
+}
