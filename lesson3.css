@@ -1,0 +1,86 @@
+/* RESET CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+}
+
+#header .nav li {
+    display: inline-block;
+}
+
+#header .nav li a {
+    color: #fff;
+    line-height: 46px;
+    padding: 0 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: green;
+}
+
+#content .about {
+    margin: 300px 200px 0;
+}
+
+#content .nav-about {
+    background-color: blue;
+    height: 40px;
+}
+
+#content .text {
+    line-height: 40px;
+    color:  #fff;
+    display: inline-grid;
+    margin-left: 32px;
+}
+#content .nav-about li {
+    display: inline-block;
+}
+
+#content .nav-about-2 {
+    float: right;
+    display: inline-block;
+}
+
+#content .nav-about-2 li:hover a {
+    background-color: #333;
+}
+
+#content .nav-about a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+    padding: 0 10px;
+    display: inline-block;
+}
+
+#content .text-contact {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#content .contact {
+    list-style-type: none;
+}
+
+#content .tag-hr {
+    height: 1px;
+    border-width: 1px;
+    color: #ccc;
+    opacity: 0.2;
+}
+
+#content .padd-li {
+    padding: 15px 0 10px 5px;
+}
